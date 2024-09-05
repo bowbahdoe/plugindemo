@@ -9,7 +9,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.ServiceLoader;
-import java.util.Set;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -29,10 +28,6 @@ public final class Main {
                         .stream()
                         .map(ModuleReference::descriptor)
                         .map(ModuleDescriptor::name)
-                        .map(f -> {
-                            System.out.println(f);
-                            return f;
-                        })
                         .collect(Collectors.toSet());
 
                 var parentLayer = ModuleLayer.boot();
