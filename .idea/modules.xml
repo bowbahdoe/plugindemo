@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.api/dev.mccue.plugindemo.api.iml" filepath="$PROJECT_DIR$/modules/dev.mccue.plugindemo.api/dev.mccue.plugindemo.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.circle/dev.mccue.plugindemo.circle.iml" filepath="$PROJECT_DIR$/modules/dev.mccue.plugindemo.circle/dev.mccue.plugindemo.circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.game/dev.mccue.plugindemo.game.iml" filepath="$PROJECT_DIR$/modules/dev.mccue.plugindemo.game/dev.mccue.plugindemo.game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.square/dev.mccue.plugindemo.square.iml" filepath="$PROJECT_DIR$/modules/dev.mccue.plugindemo.square/dev.mccue.plugindemo.square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugindemo.iml" filepath="$PROJECT_DIR$/plugindemo.iml" />
+    </modules>
+  </component>
+</project>

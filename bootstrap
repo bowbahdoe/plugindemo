@@ -1,0 +1,5 @@
+-jar tools/jresolve.jar
+--output-directory scripts/libs
+--purge-output-directory
+--use-module-names
+@scripts/libs.txt

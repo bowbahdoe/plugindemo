@@ -1,0 +1,2 @@
+pkg:maven/dev.mccue/tools-jdk@2024.09.03
+pkg:maven/info.picocli/picocli@4.7.6
