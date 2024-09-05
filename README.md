@@ -26,6 +26,9 @@ of those interfaces.
 The relevant code for the dynamic loading is under `modules/dev.mccue.plugindemo.game`
 and the service provider declarations are in the module infos of each module.
 
+The way this is structured also allows for plugins to bring along their own
+dependencies, potentially with conflicting versions.
+
 My hope is that this can serve as a useful starting point for anyone looking
 to add supported plugin functionality to their website, game, app, or whatever.
 
