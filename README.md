@@ -1,6 +1,6 @@
 Around half a year ago [I asked the crowd how they thought OSGi would be designed if it was made today](https://www.reddit.com/r/java/s/zcVdyGMBF9).
 
-One of my takeaways from that was that the majority OSGi's unique benefits could be accomplished by simply rolling
+My takeaways from that were that the majority OSGi's unique benefits could be accomplished by simply rolling
 your own plugin system and that doing so wouldn't be that hard.
 
 While I experimented with this locally, I think that there could be value in 
