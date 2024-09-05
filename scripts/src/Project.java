@@ -18,7 +18,7 @@ public class Project {
     boolean cleaned = false;
     @CommandLine.Command(name = "clean")
     public void clean() throws Exception {
-        if (!cleaned && Files.exists(BUILD)) {
+        if (!cleaned) {
             if (Files.exists(BUILD)) {
                 try (var pathStream = Files.walk(BUILD)) {
                     var paths = pathStream.sorted(Comparator.reverseOrder()).toList();
