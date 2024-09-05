@@ -3,7 +3,7 @@ Around half a year ago [I asked the crowd how they thought OSGi would be designe
 One of my takeaways from that was that the majority OSGi's unique benefits could be accomplished by simply rolling
 your own plugin system and that doing so wouldn't be that hard.
 
-While I experimented with this locally, I think could be value in 
+While I experimented with this locally, I think that there could be value in 
 sharing how that could be done. This isn't intended to be a library you
 include. It is just a demo of some of the techniques you can use.
 
