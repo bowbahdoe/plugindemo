@@ -9,6 +9,10 @@ public final class CircleEntity implements Entity {
     public void draw(Graphics2D graphics, int x, int y) {
         graphics.setColor(Color.GREEN);
         graphics.drawOval(x, y, 60, 60);
-        graphics.drawString(com.google.common.escape.Escaper.class.toString(), x, y);
+        graphics.drawString(
+                org.checkerframework.checker.builder.qual.CalledMethods.class.getSimpleName(),
+                x,
+                y
+        );
     }
 }

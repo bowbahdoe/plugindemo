@@ -10,6 +10,10 @@ public final class SquareEntity implements Entity {
         graphics.setColor(Color.BLUE);
         graphics.fillRect(x, y, 60, 60);
 
-        graphics.drawString(com.google.common.escape.Escaper.class.toString(), x, y);
+        graphics.drawString(
+                org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement.class.getSimpleName(),
+                x,
+                y
+        );
     }
 }
