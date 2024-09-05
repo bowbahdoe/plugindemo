@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="dev.mccue.plugindemo.api" />
+    <orderEntry type="library" name="circle-libs" level="project" />
   </component>
 </module>

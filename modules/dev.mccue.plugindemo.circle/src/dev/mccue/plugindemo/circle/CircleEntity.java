@@ -8,6 +8,7 @@ public final class CircleEntity implements Entity {
     @Override
     public void draw(Graphics2D graphics, int x, int y) {
         graphics.setColor(Color.GREEN);
-        graphics.fillOval(x, y, 60, 60);
+        graphics.drawOval(x, y, 60, 60);
+        graphics.drawString(com.google.common.escape.Escaper.class.toString(), x, y);
     }
 }

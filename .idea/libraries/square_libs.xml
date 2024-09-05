@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="square-libs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.square/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.square/libs" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.square/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/dev.mccue.plugindemo.square/libs" recursive="false" type="SOURCES" />
+  </library>
+</component>

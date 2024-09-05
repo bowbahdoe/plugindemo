@@ -33,3 +33,5 @@ scripts/libs
 build
 
 plugins
+
+**/libs
