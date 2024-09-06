@@ -1,1 +1,1 @@
-pkg:maven/com.google.guava/guava@24.0-jre
+pkg:maven/com.google.guava/guava@17.0

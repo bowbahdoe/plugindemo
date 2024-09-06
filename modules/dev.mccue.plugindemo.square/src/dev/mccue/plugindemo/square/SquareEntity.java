@@ -1,5 +1,6 @@
 package dev.mccue.plugindemo.square;
 
+import com.google.common.base.Predicates;
 import com.google.common.collect.ImmutableList;
 import dev.mccue.plugindemo.api.Entity;
 
@@ -13,7 +14,8 @@ public final class SquareEntity implements Entity {
         graphics.fillRect(x, y, 60, 60);
 
         graphics.drawString(
-                ImmutableList.class.getSimpleName() + ": " + ImmutableList.class.hashCode(),
+                // assignableFrom is only in older guavas
+                Predicates.assignableFrom(String.class).toString(),
                 x,
                 y
         );

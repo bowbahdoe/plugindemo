@@ -3,8 +3,7 @@ import dev.mccue.plugindemo.square.SquareEntity;
 
 module dev.mccue.plugindemo.square {
     requires dev.mccue.plugindemo.api;
-    requires com.google.common;
-    requires animal.sniffer.annotations;
+    requires guava;
 
     provides Entity with SquareEntity;
 }
